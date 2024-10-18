@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIET Mentorship Platform - Home</title>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">SLIET Mentorship</div>
+            <div class="nav-links" id="navLinks" style="">
+                <a href="login.html" style="padding-right: 20px;">Login</a>
+                <a href="register.html" style="padding-right: 20px;">Register</a>
+            </div>
+            <div>
+                <div class="menu-button" id="menuButton">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>        
+    </header>
+
+    <section class="hero ">
+        
+        <div class="hero-content ">
+            <h1>Welcome to SLIET Mentorship Platform</h1>
+            <p>Connect with experienced faculty mentors to guide you through your academic and career journey.</p>
+            <a href="register.html " class="cta-button ">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features ">
+        <div class="features-grid ">
+            <div class="feature-card ">
+                <div class="feature-icon ">👨‍🏫</div>
+                <h3>Expert Mentors</h3>
+                <p>Connect with experienced SLIET faculty members who are passionate about guiding students.</p>
+            </div>
+            <div class="feature-card ">
+                <div class="feature-icon ">📅</div>
+                <h3>Easy Scheduling</h3>
+                <p>Book mentoring sessions at your convenience with our automated booking system.</p>
+            </div>
+            <div class="feature-card ">
+                <div class="feature-icon ">💬</div>
+                <h3>Direct Communication</h3>
+                <p>Interact with mentors through our integrated chat system for seamless communication.</p>
+            </div>
+            <div class="feature-card ">
+                <div class="feature-icon ">🎯</div>
+                <h3>Personalized Guidance</h3>
+                <p>Get tailored advice for your academic and career goals from experienced professionals.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer ">
+        <div class="footer-content ">
+            <p>&copy; 2024 SLIET Mentorship Platform. All rights reserved.</p>
+            <div class="social-links ">
+                <a href="https://www.facebook.com/officialSLIET/">Facebook</a>
+                <a href="https://twitter.com/officialsliet">Twitter</a>
+                <a href="https://linkedin.com/company/official-sliet">LinkedIn</a>
+                <a href="https://www.youtube.com/channel/UCehtU_Q5MHd0bYEosFsUPVw?view_as=subscriber">YouTube</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        const menuButton = document.getElementById('menuButton');
+        const navLinks = document.getElementById('navLinks');
+    
+        menuButton.addEventListener('click', () => {
+            menuButton.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
