@@ -9,7 +9,7 @@
         name: "Dr. Damanpreet Singh",
         position: "Professor",
         expertise: "Ph.D., M.Tech,B.tech",
-        imageUrl: "http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg",
+        imageUrl: "https://i.ibb.co/7tB0P4n/Birmohan-sing.jpg",
         availableSlots: ["10:00 AM", "2:00 PM", "4:00 PM"]
     }, {
         name: "Dr. Major Singh Goraya",
