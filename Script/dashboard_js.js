@@ -3,7 +3,7 @@
         name: "Dr.Birmohan Singh",
         position: "Professor",
         expertise: "Ph.D., M.E",
-        imageUrl: "http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg",
+        imageUrl: "https://imgbb.com/][img]https://i.ibb.co/7tB0P4n/Birmohan-sing.jpg",
         availableSlots: ["10:00 AM", "2:00 PM", "4:00 PM"]
     }, {
         name: "Dr. Damanpreet Singh",
