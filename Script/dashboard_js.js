@@ -3,7 +3,7 @@
         name: "Dr.Birmohan Singh",
         position: "Professor",
         expertise: "Ph.D., M.E",
-        imageUrl: "https://i.ibb.co/7tB0P4n/Birmohan-sing.jpg",
+        imageUrl: "https://github.com/Sanjay-Edoble/lazarus/blob/main/image/Birmohan_sing.jpg",
         availableSlots: ["10:00 AM", "2:00 PM", "4:00 PM"]
     }, {
         name: "Dr. Damanpreet Singh",
