@@ -40,13 +40,13 @@
         name: "Dr. Jagdeep Singh",
         position: "Assistant Professor",
         expertise: "B.tech,M.tech,Ph.D",
-        imageUrl: "https://imgbb.com/][img]https://i.ibb.co/gjrT61Q/Dr-Jagdeep-Singh.jpg[/img][/url",
+        imageUrl: "https://i.ibb.co/gjrT61Q/Dr-Jagdeep-Singh.jpg",
         availableSlots: ["9:00 AM", "1:00 PM", "3:00 PM"]
     },{
         name: "Dr. Manminder Singh",
         position: "Assistant Professor",
         expertise: "B.tech,M.tech,Ph.D",
-        imageUrl: "http://sliet.ac.in/wp-content/uploads/avatars/16/66693282b6269-bpfull.jpg",
+        imageUrl: "https://i.ibb.co/r4bvyjW/manmindr.jpg",
         availableSlots: ["9:00 AM", "1:00 PM", "3:00 PM"]
     },{
         name: "Dr. Preetpal Kaur Buttar",
@@ -94,7 +94,7 @@
         name: "Sukhpreet Singh",
         position: "Assistant Professor(Contract)",
         expertise: "B.Tech,Ph.D",
-        imageUrl: "http://sliet.ac.in/wp-content/uploads/avatars/353/60544f9339252-bpfull.jpg",
+        imageUrl: "https://i.ibb.co/k0kq9mh/sukerpreet-sing.jpg",
         availableSlots: ["9:00 AM", "1:00 PM", "3:00 PM"]
     }];
 
