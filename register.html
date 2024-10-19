@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://lh4.googleusercontent.com/proxy/By-dfQRN2-HKk8ghjuSs5n6T6LkbRab_TLsa9rbMbG-ah3J5ku0E6mTBRPQO_LJdw0kBhTytpkNoUIu-RK1LdweGa0hYvtxcxXL7" type="image/x-icon">
     <title>Login - SLIET Mentorship Platform</title>
     <link rel="stylesheet" href="Style/register_style.css">
 </head>
@@ -13,7 +12,7 @@
             <a href="index.html" class="logo">SLIET Mentorship</a>
             <div class="nav-links" id="navLinks">
                 <a href="index.html">Home</a>
-                <a href="login.html">Login</a>
+                <a href="register.html">Login</a>
             </div>
             <div class="menu-button" id="menuButton">
                 <div class="bar"></div>
@@ -27,8 +26,8 @@
         <form class="login-form" id="loginForm">
             <h2>Create an account</h2>
             <div class="form-group">
-                <label for="email">Name</label>
-                <input type="text" id="email" required>
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
@@ -39,21 +38,96 @@
                 <input type="password" id="password" required>
             </div>
             <div class="form-group">
-                <label for="password">Confirm Password</label>
-                <input type="password" id="password" required>
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" required>
             </div>
             
             <div class="remember-me">
                 <input type="checkbox" id="remember">
-                <label for="remember">Accept the<a href="#terms and conditions"> terms and policies</a></label>
+                <label for="remember">Accept the <a href="#terms-and-conditions">terms and policies</a></label>
             </div>
+            <button type="submit" class="submit-btn" id="registerButton" style="text-decoration: none; color: aliceblue;">Register</button>
+
             <div class="links">
                 <span></span>
-                <button type="submit" class="submit-btn"><a href="dashboard.html" style="text-decoration: none; color: aliceblue;">Register</a></button>
+                <a href="login.html">Already have an account?</a>
             </div>
         </form>
     </main>
 
-    <script src="Script/register.js"></script>
+    <!-- Add your script here -->
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form from submitting
+            
+            // Get form input values
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirm-password").value;
+            const remember = document.getElementById("remember").checked;
+
+            // Basic validation
+            if (name && email && password && password === confirmPassword && remember) {
+                // Redirect to the next page
+                window.location.href = "dashboard.html";
+            } else {
+                // Alert if form is incomplete or passwords don't match
+                alert("Please fill all fields correctly and accept the terms and conditions.");
+            }
+        });
+    </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - SLIET Mentorship Platform</title>
+    <link rel="stylesheet" href="Style/login_style.css">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">SLIET Mentorship</a>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="login-container">
+        <form class="login-form" id="loginForm">
+            <h2>Welcome Back</h2>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="remember-me">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+            </div>
+            <button type="submit" class="submit-btn">Login</button>
+            <div class="links">
+                <a href="forgot password.html">Forgot Password?</a>
+                <span>|</span>
+                <a href="register.html">Create Account</a>
+            </div>
+        </form>
+    </main>
+
+    <script src="Script/login_js.js"></script>
 </body>
 </html>
