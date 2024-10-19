@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIET dashboard</title>
+    <link rel="stylesheet" href="Style/dashboard_style.css">
+    <link rel="script" href="Script/dashboard_js.js">  
+     <style>
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo"><a href="#"  style="text-decoration:none; color: aliceblue;">SLIET Mentorship</a></div>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="mentor.html">Mentors</a>
+                <a href="profile.html">Profile</a>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <h2 style="text-align: center;
+        margin-top: 10px;">Available Mentors</h2>
+    </div>
+
+    <main class="main-content">
+        <div class="booking-status" id="bookingStatus">
+            <h2>My Booking</h2>
+            <ul id="bookingList">
+                <!-- Booking status will be dynamically populated -->
+            </ul>
+        </div>
+
+        <section id="mentors" class="mentor-grid">
+            <!-- Mentor cards will be dynamically populated -->
+        </section>
+        
+    </main>
+    
+    
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <span>Chat with Mentor</span>
+            <button onclick="closeChat()" style="color: #d32f2f; padding: 5px;"><b>X</b></button>
+        </div>
+        <div class="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" placeholder="Type your message...">
+        </div>
+    </div>
+</body>
+<script src="Script/dashboard_js.js"></script>
+</html>
