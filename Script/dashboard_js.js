@@ -15,7 +15,7 @@
         name: "Dr. Major Singh Goraya",
         position: "Professor",
         expertise: "Ph.D., M.Tech., B.Tech.",
-        imageUrl: "https://i.ibb.co/3f0hFgN/Dr-Manoj-Sachan.jpg",
+        imageUrl: "https://i.ibb.co/WvV9KR2/Dr-Major-Singh-Goraya.jpg",
         availableSlots: ["9:00 AM", "1:00 PM", "3:00 PM"]
     },{
         name: "Dr. Manoj Sachan",
